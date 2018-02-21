@@ -1,0 +1,114 @@
+html {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1 {
+	margin: 50px 200px 50px 230px;
+	font-size: 4em;
+}
+
+h2 {
+	margin: 15px 200px 25px 230px;
+	font-size: 2.10em;
+	
+}
+
+h3 {
+	margin: 15px 200px 25px 230px;
+	font-size: 1.75em;
+}
+
+p {
+	margin: 15px 200px 25px 230px;
+	font-size: 1.15em;
+    text-align: justify;
+}
+
+
+.accordion {
+    background-color: #1BAAF7;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+	width: 68%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	margin: 15px 200px 25px 230px;
+}
+
+.active, .accordion:hover {
+    background-color: #5745CD; 
+}
+
+.panel {
+    display: none;
+	margin: 15px 200px 25px 230px;
+	font-size: 1.15em;
+}
+
+.panel p {
+	margin: 10px 0 15px 0;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.panel h3 {
+    margin-left: 0;
+}
+
+.panel iframe {
+    height: 900px;
+    width: 100%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
