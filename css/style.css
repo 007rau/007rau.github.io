@@ -1,0 +1,29 @@
+html {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1 {
+    margin-right: 15%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+	font-size: 4em;
+}
+
+h2 {
+    margin-right: 15%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+	font-size: 2.10em;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+footer {
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+}
