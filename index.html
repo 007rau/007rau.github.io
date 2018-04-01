@@ -18,21 +18,21 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <link rel="icon" type="image/png" href="images/icon.png">
-  </head>
-    
-  <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+  </head>  
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: gray">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Raushan Pandey</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li> <a href="#skills">Skills</a></li>
+                <li> <a href="#workExp">Work Experiance</a></li>
             </ul>
         </div>
     </nav>
-
-    <div class="container">
+    <div id="home" class="container">
         <div class="row">
             <div class="col-sm-8">
                 <h1>Hey, I'm Raushan. ;)</h1>
@@ -43,7 +43,6 @@
             </div>
         </div>
     </div>
-
     <div class="container">
         <p>I'm a software developer, currently in Hyderabad (India). I get excited by the technologies, methods, frameworks and other people who are making an impact to change the world for a better future. I'm
             <br> - always ready to solve problems, so why don't you throw me one.
@@ -54,8 +53,7 @@
             <br> Connect with me, to experience a new and unique perspective in life about technologies, poetry, football and few other skills too.
         </p>
     </div>
-      
-    <h3 class="text-center" style="background-color: black; color: white; margin: 1em">
+    <h3 id="skills" class="text-center" style="background-color: black; color: white; margin: 1em">
         <i class="fa fa-chart-bar fa-border"></i> Skills
     </h3>
     <div class="container">
@@ -248,11 +246,9 @@
             </div>
         </div>  
     </div>
-      
-    <h3 class="text-center" style="background-color: black; color: white; margin: 1em">
+    <h3 id="workExp" class="text-center" style="background-color: black; color: white; margin: 1em">
         <img src="https://png.icons8.com/office/40/000000/business.png"> Work Experiance
     </h3>
-    
     <div class="container">
         <div class="row">
             <div class="row-sm-height">
@@ -289,10 +285,8 @@
                 <p>
                 </div>
             </div>
-            </div>
         </div>
     </div>
-
     <footer class="footer">
         <div class="container-fluid">
             <div class="col-sm-12 text-center">
@@ -308,11 +302,12 @@
                 <a href="https://www.quora.com/profile/Raushan-Pandey-3">
                     <img src="https://png.icons8.com/doodle/50/000000/quora.png">
                 </a>
+                <a href="https://plus.google.com/u/0/+raushanpandey007">
+                    <img src="https://png.icons8.com/doodle/50/000000/google-plus.png">
+                </a>
             </div>
         </div>
     </footer>
-
     <script src="scripts/main.js"></script>
-      
   </body>
 </html>
