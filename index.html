@@ -1,21 +1,27 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116740209-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+       window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-116740209-1');
+       function gtag() {
+          dataLayer.push(arguments);
+       }
+
+       gtag('js', new Date());
+
+       gtag('config', 'UA-116740209-1');
     </script>
 
     <meta charset="utf-8">
     <title>Raushan Pandey / Developer - India</title>
     <meta name="description" content="Raushan Pandey, software engineer currently in Hyderabad(India)">
-    <meta name="keywords" content="Raushan Pandey, software developer, software engineer, freelancer, software, verizon, samsung, hiring">
-      
+    <meta name="keywords"
+          content="Raushan Pandey, software developer, software engineer, freelancer, software, verizon, samsung, hiring">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -24,53 +30,72 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" type="image/png" href="images/icon.png">
-  </head>  
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-      <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: gray">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Raushan Pandey : Mini Profile</a>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#home">Home</a></li>
-                <li> <a href="#skills">Skills</a></li>
-                <li> <a href="#workExp">Work Experiance</a></li>
-                <li> <a href="#contact">Connect</a></li>
-            </ul>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="w3-black">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: black">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Raushan Pandey</a>
         </div>
-    </nav>
-    <div id="home" class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <h1>Hey, I'm Raushan. ;)</h1>
-                <h2>I develop Softwares.</h2>
-            </div>
-            <div class="col-sm-4">
-                <img alt="avatar" src="images/avatar.jpg" class="img-responsive img-circle" alt="profile pic" style="margin-top: 150px; width: 142px; height: 142px">
-            </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#workExp">Work Ex</a></li>
+            <li><a href="#contact">Connect</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container" style="background: black">
+    <div class="container">
+        <img src="images/coding_bg.jpg" class="bg-image" style="filter: blur(4px);">
+        <div class="col-sm-4 bg-avatar">
+            <img alt="avatar" src="images/avatar.jpg" class="img-responsive img-circle">
+        </div>
+        <div class="centered">
+            <h1 style="font-size:50px">Hi, I'm Raushan</h1>
+            <h2>
+                <div id="typed-strings" style="display: none;">
+                    <p>I &nbsp;<i class="fa fa-heart-o"></i>&nbsp; developing software</p>
+                    <p>I &nbsp;<i class="fa fa-heart-o"></i>&nbsp; creating optimized solutions</p>
+                    <p>I &nbsp;<i class="fa fa-heart-o"></i>&nbsp; coding challenges and building better applications</p>
+                    <p>I &nbsp;<i class="fa fa-heart-o"></i>&nbsp; working on new technologies</p>
+                    <p>I &nbsp;<i class="fa fa-heart-o"></i>&nbsp; football and badminton</p>
+                    <p>I &nbsp;<i class="fa fa-heart-o"></i>&nbsp; playing FIFA with friends</p>
+                </div>
+                <span id="typed"></span>
+            </h2>
         </div>
     </div>
-    <div class="container">
-        <p>I'm a software developer, currently in Bangalore (India). I get interested in technologies, frameworks and other people who are making an impact to change the world for a better future. I'm
-            <br> - always ready to solve problems, so why don't you throw me one.
-            <br> - looking for ways to explore this great world of technology.
-            <br> - eager to learn new things, experience new moments and share my thoughts.
-            <br> - looking to connect with people, who can guide me in my path.
-            <br>
-            <br> Connect with me, to experience a new and unique perspective in life about technologies, poetry, football and few other skills too. If you are nearby we can play football, badminton, or FIFA, just let me know.
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey" style="text-align: center">About Me</h2>
+        <hr style="width:100%;" class="w3-opacity">
+        <p style="text-align: justify; letter-spacing: 1px; line-height: 1.6; font-weight: normal; color: white">
+            As you might have figured it out till now, my name is Raushan Pandey. Currently, <strong>I'm working as a Software Developer
+            with IG Group (FinTech Company based in London) in Bangalore, India</strong>. I have graduated from SRM University, Chennai
+            in
+            2017 with my major in Computer Science and Engineering.<br><br>
+            I'm a back-end developer writing most of the code in Java8, with help of various frameworks. In my current company, I have
+            worked on projects related to Post-Trade Domain of the Trading Scenario. I love to explore new technologies or ideas to help
+            me
+            grow as a developer, currently I'm building beta version of IG Alexa Skill.<br><br>
+            When I'm not writing or fixing my code, I can be found either near a Football field or in a Badminton court. I also love to
+            play FIFA with my friends, build Alexa skills, discover interesting tv shows or movies on the internet (mostly on
+            Netflix).<br>
         </p>
     </div>
-    <h3 id="skills" class="text-center" style="background-color: black; color: white">
-        <i class="fa fa-chart-bar fa-border"></i> Skills
-    </h3>
-    <div class="container">
-        <div class="row">
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="skills">
+        <h3 class="text-center" style="background-color: black; color: white">
+            <i class="fa fa-chart-bar fa-border"></i> Skills
+        </h3>
+        <hr style="width:100%;" class="w3-opacity">
+        <div class="row" style="color: white">
             <div class="col-sm-6">
                 <h4 class="text-center" style="margin-bottom: 25px">
                     Personal Skills
@@ -83,7 +108,8 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">95%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:95%">
                             </div>
                         </div>
                     </div>
@@ -96,7 +122,8 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">100% always
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:100%">
                             </div>
                         </div>
                     </div>
@@ -109,7 +136,8 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">75%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:75%">
                             </div>
                         </div>
                     </div>
@@ -122,12 +150,13 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:90%">
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6">
                     <div class="text-center">
                         <span> Leadership </span>
@@ -136,12 +165,13 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">65%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:65%">
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6">
                     <div class="text-center">
                         <span> Management </span>
@@ -150,14 +180,15 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">50%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:50%">
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="col-sm-6">
                 <h4 class="text-center" style="margin-bottom: 25px">
                     Professional Skills
@@ -170,7 +201,8 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:75%">
                             </div>
                         </div>
                     </div>
@@ -183,7 +215,8 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:75%">
                             </div>
                         </div>
                     </div>
@@ -196,163 +229,178 @@
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">75%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:85%">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="text-center">
-                        <span> Front End Development </span>
+                        <span> Java </span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">65%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:80%">
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <div class="col-sm-6">
                     <div class="text-center">
-                        <span> Back End Development </span>
+                        <span> Oracle DB </span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:70%">
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6">
                     <div class="text-center">
-                        <span> Database(s) </span>
+                        <span> Git </span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">50%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:80%">
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6">
                     <div class="text-center">
-                        <span> Version Control </span>
+                        <span> Alexa Skill Kit </span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:70%">
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>  
-    </div>
-    <h3 id="workExp" class="text-center" style="background-color: black; color: white">
-        <img src="https://png.icons8.com/office/40/000000/business.png"> Work Experiance
-    </h3>
-    <div class="container">
-        <div class="row">
-            <div class="row-sm-height">
-                <div class="col-sm-4 col-sm-height col-sm-middle">
-                    <img src="images/ig_logo.jpg" class="img-responsive center-block" alt="IG Logo" width="200" height="200">
-                </div>
-                <div class="col-sm-8 col-sm-height col-sm-middle">
-                    <h3 class="text-center" style="background-color: white; color: black; padding: 0em">Graduate Trainee at IG Group</h3>
-                    <h4 class="text-center"> July 2018 - Present</h4>
-                    <p>- Working on IG projects related to Trading and Financial Brokerage<br>
-                        - Creating Restful API's for services in Java<br>
-                        - Working with technologies like Apache Kafka, Google Guava<br>
-                    <p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="row-sm-height">
-                <div class="col-sm-4 col-sm-height col-sm-middle">
-                    <img src="images/verizon_logo.jpg" class="img-responsive center-block" alt="Verizon Logo" width="200" height="200">
-                </div>
-                <div class="col-sm-8 col-sm-height col-sm-middle">
-                    <h3 class="text-center" style="background-color: white; color: black; padding: 0em">Software Engineer at Verizon Data Services India</h3>
-                    <h4 class="text-center"> June 2017 - July 2018</h4>
-                    <p>- Worked on online ordering platform for Verizon Residential Customers<br>
-                        - Created automating software for Health Check-up with 1 more
-                        fellow employee in team.<br>
-                        - Got recognized for focusing towards better customer experience
-                        and bring ideas to improve the conversion rate of online ordering.<br>
-                        - Created POC for new technical concepts and frameworks and
-                        successfully presented to the leadership team.<br>
-                        - Technologies/Tools used : JIRA, AngularJS 1, Restful APIs, Visual Studios<br>
-                    <p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="row-sm-height">
-                <div class="col-sm-4 col-sm-height col-sm-middle">
-                    <img src="images/samsung_logo.png" class="img-responsive center-block" alt="Samsung Logo" width="200" height="200">
-                </div>
-                <div class="col-sm-8 col-sm-height col-sm-middle">
-                <h3 class="text-center" style="background-color: white; color: black; padding: 0em">Research Intern at Samsung Research Institute Bangalore</h3>
-                <h4 class="text-center"> Dec 2016 - May 2017</h4>
-                <p>- Software Developer Researcher in IoT Department<br>
-                    - Worked on Bus Automation System<br>
-                    - Contributed to other projects: Bixby, Smart Home<br>
-                    - Technologies/Tools used : JIRA, Android, Beacons, REST APIs, Spring<br>
-                <p>
                 </div>
             </div>
         </div>
     </div>
-    <h3 id="contact" class="text-center" style="background-color: black; color: white">
-        <img src="https://png.icons8.com/doodle/50/000000/user-group-man-man.png"> Connect
-    </h3>
-    <div class="container text-center">
-        <h4>Connecting with people in this Digial World is the easiest task out there. Come let's get connected and share our understandings and experiances about this fascinating world of technology and other interest too.</h4>
-        <br>
-        <div class="row">
-            <div class="col-sm-9">
-                <h4>If you are a recruiter then I guess you would be wondering where can you find my CV if you want a documented form rather than this mini profile, so there you go.</h4>
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="workExp">
+        <h3 class="text-center" style="background-color: black; color: white">
+            <img src="https://png.icons8.com/office/40/000000/business.png"> Work Experience
+        </h3>
+        <hr style="width:100%;" class="w3-opacity">
+        <div class="timeline" style="color: white; background: black; alignment: center">
+            <div class="entry">
+                <div class="title">
+                    <h3>2018 - Present</h3>
+                    <p style="font-weight: bold;">Associate Software Developer</p>
+                </div>
+                <div class="body">
+                    <p>IG Group</p>
+                    <ul>
+                        <li>Working on IG projects related to Trading and Financial Brokerage.</li>
+                        <li>Creating Restful API for middle-ware systems in Java.</li>
+                        <li>Created IG's first Alexa skill to integrate with trading platform.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-3" style="margin: 12px 0px">
-                <button onclick="window.open('./doc/RaushanPandeyResume.pdf');" type="button" class="btn btn-info">Resume</button>
+            <div class="entry">
+                <div class="title">
+                    <h3>2017 - 2018</h3>
+                    <p style="font-weight: bold;">Software Developer</p>
+                </div>
+                <div class="body">
+                    <p>Verizon</p>
+                    <ul>
+                        <li>Worked on online ordering platform for Verizon Residential Customers</li>
+                        <li>Created automating software for Health Check-up with 1 more fellow employee in team</li>
+                        <li>Got recognized for focusing towards better customer experience and bring ideas to improve the conversion rate of
+                            online ordering
+                        </li>
+                        <li>Created POC for new technical concepts and frameworks and successfully presented to the leadership team</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="title">
+                    <h3>2016 - 2017</h3>
+                    <p style="font-weight: bold;">Research Intern</p>
+                </div>
+                <div class="body">
+                    <p>Samsung Research Institute Bangalore</p>
+                    <ul>
+                        <li>Software Developer Researcher in IoT Department</li>
+                        <li>Worked on Bus Automation System</li>
+                        <li>Contributed to other projects: Bixby, Smart Home</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="col-sm-12 text-center">
-                <p>&copy; Raushan Pandey</p>
-            </div>
-            <div class="text-center">
-                <a href="https://github.com/007rau">
-                    <img src="https://png.icons8.com/color/50/000000/github.png">
-                </a>
-                <a href="https://linkedin.com/in/007rau">
-                    <img src="https://png.icons8.com/doodle/50/000000/linkedin.png">
-                </a>
-                <a href="https://www.quora.com/profile/Raushan-Pandey-3">
-                    <img src="https://png.icons8.com/doodle/50/000000/quora.png">
-                </a>
-                <a href="https://plus.google.com/u/0/+raushanpandey007">
-                    <img src="https://png.icons8.com/doodle/50/000000/google-plus.png">
-                </a>
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="contact">
+        <h3 class="text-center" style="background-color: black; color: white">
+            <img src="https://png.icons8.com/doodle/50/000000/user-group-man-man.png"> Connect
+        </h3>
+        <hr style="width:100%;" class="w3-opacity">
+        <div class="w3-content w3-justify">
+            <h4 style="text-align: center; letter-spacing: 1px; line-height: 1.6; font-weight: normal; color: white">Connecting with people
+                in this Digital World is the easiest job out there. Come let's get connected and share our understandings and experiences
+                about our interests.</h4>
+            <br>
+            <div class="row">
+                <div class="col-sm-9">
+                    <h4 style="text-align: center; letter-spacing: 1px; line-height: 1.6; font-weight: normal; color: white">If you are a
+                        recruiter, then here is a button to download my Resume (just in case).</h4>
+                </div>
+                <div class="col-sm-3" style="margin: 12px 0px">
+                    <button onclick="window.open('./doc/RaushanPandeyResume.pdf');" type="button" class="btn btn-info">Resume
+                    </button>
+                </div>
             </div>
         </div>
-    </footer>
-    <script src="scripts/main.js"></script>
-  </body>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="col-sm-12 text-center">
+            <p>&copy; Raushan Pandey</p>
+        </div>
+        <div class="text-center">
+            <a href="https://github.com/007rau">
+                <img src="https://png.icons8.com/color/50/000000/github.png">
+            </a>
+            <a href="https://linkedin.com/in/007rau">
+                <img src="https://png.icons8.com/doodle/50/000000/linkedin.png">
+            </a>
+            <a href="https://www.quora.com/profile/Raushan-Pandey-3">
+                <img src="https://png.icons8.com/doodle/50/000000/quora.png">
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="js/typed.js">
+</script>
+<script>var typed = new Typed('#typed', {
+   stringsElement: '#typed-strings',
+   typeSpeed: 60,
+   startDelay: 200,
+   backDelay: 700,
+   loop: true,
+   loopCount: Infinity,
+   smartBackspace: true,
+});
+</script>
+</body>
 </html>
