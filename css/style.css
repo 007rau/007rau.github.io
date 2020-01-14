@@ -122,3 +122,15 @@ body, html {
    content: "–";
    margin-right: .5em;
 }
+
+.featurette-icon {
+   display: block;
+   width: 100%;
+   color: #dddddd;
+   font-size: 4.5rem;
+   text-align: center;
+}
+
+.featurette-icon:hover {
+   color: coral;
+}
