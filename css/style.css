@@ -115,12 +115,10 @@ body, html {
    font-weight: 400;
 }
 .entry .body ul {
-   color: #aaa;
-   padding-left: 0;
-   list-style-type: none;
+   color: #ffffff;
+   list-style-type: circle;
 }
 .entry .body ul li:before {
-   content: "–";
    margin-right: .5em;
 }
 
